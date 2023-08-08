@@ -4,7 +4,7 @@ table 50103 "Playlist Line"
     {
         field(1; "Document No."; Code[20]) { }
         field(2; "Line No."; Integer) { }
-        field(3; Type; Enum "Playlist Type") { }
+        field(3; Type; Option) { OptionMembers = ,Resource,Show,Item; }
         field(4; "No."; Code[20])
         {
             TableRelation = if (Type = const(Resource)) Resource."No."

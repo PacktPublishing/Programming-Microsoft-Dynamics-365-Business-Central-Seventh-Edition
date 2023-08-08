@@ -4,7 +4,7 @@ table 50105 "Radio Show Entry"
     {
         field(1; "Entry No."; Integer) { }
         field(2; "Radio Show No."; Code[20]) { }
-        field(3; Type; Enum "Playlist Type") { }
+        field(3; Type; Option) { OptionMembers = ,Resource,Show,Item; }
         field(4; "No."; Code[20]) { }
         field(5; "Data Format"; Enum "Playlist Data Format") { }
         field(6; Description; Text[50]) { }

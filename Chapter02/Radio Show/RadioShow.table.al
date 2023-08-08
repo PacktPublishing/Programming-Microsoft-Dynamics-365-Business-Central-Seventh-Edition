@@ -12,7 +12,7 @@ table 50100 "Radio Show"
         field(8; "Audience Share"; Decimal) { }
         field(9; "Advertising Revenue"; Decimal) { }
         field(10; "Royalty Cost"; Decimal) { }
-        field(11; Frequency; Enum "Radio Show Frequency") { }
+        field(11; Frequency; Option) { OptionMembers = Hourly,Daily,Weekly,Monthly; }
         field(12; "PSA Planned Quantity"; Integer) { }
         field(13; "Ads Planned Quantity"; Integer) { }
         field(14; "News Required"; Boolean) { InitValue = true; }

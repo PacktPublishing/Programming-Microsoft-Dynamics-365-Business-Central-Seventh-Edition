@@ -1,4 +1,4 @@
-enum 50106 "Playlist Data Format"
+enum 50100 "Playlist Data Format"
 {
     Extensible = true;
 
