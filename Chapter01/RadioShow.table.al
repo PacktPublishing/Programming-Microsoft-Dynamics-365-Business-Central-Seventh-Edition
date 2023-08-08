@@ -14,17 +14,4 @@ table 50100 "Radio Show"
         field(9; "Advertising Revenue"; Decimal) { }
         field(10; "Royalty Cost"; Decimal) { }
     }
-
-    keys
-    {
-        key(PK; "No.") { }
-        key(Name; Name) { }
-        key(HostName; "Host Name") { }
-
-    }
-    fieldgroups
-    {
-        fieldgroup(DropDown; "No.", Name, "Host Name") { }
-        fieldgroup(Brick; "No.", Name, "Audience Share") { }
-    }
 }
