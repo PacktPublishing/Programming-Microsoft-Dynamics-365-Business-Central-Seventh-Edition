@@ -1,4 +1,4 @@
-table 50106 "Listernership Entry"
+table 50106 "Listenership Entry"
 {
     fields
     {

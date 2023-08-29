@@ -1,7 +1,7 @@
 page 50107 "Listenership Entries"
 {
     PageType = List;
-    SourceTable = "Listernership Entry";
+    SourceTable = "Listenership Entry";
     ApplicationArea = All;
     UsageCategory = History;
 
