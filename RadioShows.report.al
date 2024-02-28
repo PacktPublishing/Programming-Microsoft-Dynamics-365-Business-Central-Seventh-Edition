@@ -2,7 +2,7 @@ report 50100 "Radio Shows"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
-    DefaultRenderingLayout = MyWordLayout;
+    DefaultRenderingLayout = MyExcelLayout;
 
     dataset
     {
@@ -23,11 +23,6 @@ report 50100 "Radio Shows"
 
     rendering
     {
-        layout(MySQLReportLayout)
-        {
-            Type = RDLC;
-            LayoutFile = 'RadioShows.rdl';
-        }
         layout(MyWordLayout)
         {
             Type = Word;
