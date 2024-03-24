@@ -7,7 +7,7 @@ page 50106 "Radio Show Entries"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(Group)
             {
@@ -22,8 +22,5 @@ page 50106 "Radio Show Entries"
                 field("Entry No."; Rec."Entry No.") { }
             }
         }
-
-
     }
-
 }
