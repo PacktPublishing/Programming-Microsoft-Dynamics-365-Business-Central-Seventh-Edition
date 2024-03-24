@@ -1,13 +1,13 @@
 page 50100 "Radio Show List"
 {
     PageType = List;
-    SourceTable = "Radio Show";
     ApplicationArea = All;
     UsageCategory = Lists;
+    SourceTable = "Radio Show";
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(Group)
             {

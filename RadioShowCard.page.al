@@ -6,7 +6,7 @@ page 50101 "Radio Show Card"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(General)
             {
