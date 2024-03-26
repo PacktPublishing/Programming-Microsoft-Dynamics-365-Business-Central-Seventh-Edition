@@ -1,7 +1,7 @@
 table 50101 "Radio Show Type"
 {
-    LookupPageId = "Radio Show Type";
-    DrillDownPageId = "Radio Show Type";
+    LookupPageId = "Radio Show Types";
+    DrillDownPageId = "Radio Show Types";
 
     fields
     {
