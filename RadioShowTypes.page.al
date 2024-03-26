@@ -1,4 +1,4 @@
-page 50102 "Radio Show Type"
+page 50102 "Radio Show Types"
 {
     PageType = List;
     SourceTable = "Radio Show Type";
