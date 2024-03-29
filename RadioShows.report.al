@@ -23,11 +23,6 @@ report 50100 "Radio Shows"
 
     rendering
     {
-        layout(MyWordLayout)
-        {
-            Type = Word;
-            LayoutFile = 'RadioShows.docx';
-        }
         layout(MyExcelLayout)
         {
             Type = Excel;
