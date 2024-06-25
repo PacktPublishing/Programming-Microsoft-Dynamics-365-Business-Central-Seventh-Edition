@@ -102,8 +102,8 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
-        <Field Name="UserCommnet">
-          <DataField>UserCommnet</DataField>
+        <Field Name="UserComment">
+          <DataField>UserComment</DataField>
         </Field>
         <Field Name="Code_RadioShowType">
           <DataField>Code_RadioShowType</DataField>

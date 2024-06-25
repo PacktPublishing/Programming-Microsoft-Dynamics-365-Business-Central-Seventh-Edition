@@ -8,7 +8,7 @@ report 50101 "Shows By Type"
     {
         dataitem(RadioShowType; "Radio Show Type")
         {
-            column(UserCommnet; UserCommnet) { }
+            column(UserComment; UserComment) { }
             column(Code_RadioShowType; Code) { }
             column(Type; Description) { }
             dataitem(RadioShow; "Radio Show")
@@ -40,7 +40,7 @@ report 50101 "Shows By Type"
             {
                 group(Options)
                 {
-                    field(UserCommnet; UserCommnet)
+                    field(UserComment; UserComment)
                     {
                         ApplicationArea = All;
                         Caption = 'User Comment';
@@ -84,6 +84,5 @@ report 50101 "Shows By Type"
     }
 
     var
-        UserCommnet: Text;
-
+        UserComment: Text;
 }
