@@ -62,7 +62,6 @@ table 50100 "Radio Show"
         key(Name; Name) { }
         key(HostName; "Host Name") { }
         key(ShowType; "Radio Show Type") { }
-
     }
 
     fieldgroups

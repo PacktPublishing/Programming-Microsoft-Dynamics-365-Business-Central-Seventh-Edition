@@ -38,8 +38,3 @@ page 50141 "Lot Avail. by Bin"
         end;
     end;
 }
-
-
-
-
-

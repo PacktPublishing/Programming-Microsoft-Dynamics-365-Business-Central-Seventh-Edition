@@ -13,7 +13,3 @@ pageextension 50100 "Item List Extension" extends "Item List"
         }
     }
 }
-
-
-
-
