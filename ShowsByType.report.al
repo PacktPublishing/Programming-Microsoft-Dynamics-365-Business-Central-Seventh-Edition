@@ -3,6 +3,7 @@ report 50101 "Shows By Type"
     DefaultRenderingLayout = ExcelLayout;
     Caption = 'Shows by Type';
     UsageCategory = ReportsAndAnalysis;
+    ApplicationArea = All;
 
     dataset
     {
