@@ -9,10 +9,41 @@ table 50100 "Radio Show"
         field(4; "Run Time"; Duration) { }
         field(5; "Host Code"; Code[20]) { }
         field(6; "Host Name"; Text[100]) { }
-        field(7; "Average Listeners"; Decimal) { }
-        field(8; "Audience Share"; Decimal) { }
-        field(9; "Advertising Revenue"; Decimal) { }
-        field(10; "Royalty Cost"; Decimal) { }
+        field(7; "Average Listeners"; Decimal)
+        {
+            Editable = false;
+            FieldClass = FlowField;
+            CalcFormula = average("Listenership Entry"."Listener Count"
+            where("Radio Show No." = field("No."), Date = field("Date Filter")));
+        }
+        field(8; "Audience Share"; Decimal)
+        {
+            Editable = false;
+            FieldClass = FlowField;
+            CalcFormula = average("Listenership Entry"."Audience Share"
+            where("Radio Show No." = field("No."), Date = field("Date Filter")));
+        }
+        field(9; "Advertising Revenue"; Decimal)
+        {
+            Editable = false;
+            FieldClass = FlowField;
+            CalcFormula = sum("Radio Show Entry"."Fee Amount"
+            where(
+                "Radio Show No." = field("No."),
+                "Data Format" = filter(Advertisement)
+                ));
+        }
+        field(10; "Royalty Cost"; Decimal)
+        {
+            Editable = false;
+            FieldClass = FlowField;
+            CalcFormula = sum("Radio Show Entry"."Fee Amount"
+            where(
+                "Radio Show No." = field("No."),
+                Date = field("Date Filter"),
+                "Data Format" = filter(Vinyl | CD | MP3)
+            ));
+        }
         field(11; Frequency; Option) { OptionMembers = Hourly,Daily,Weekly,Monthly; }
         field(12; "PSAs Required"; Boolean) { }
         field(13; "Ads Required"; Boolean) { }
