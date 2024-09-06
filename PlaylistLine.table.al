@@ -63,6 +63,7 @@ table 50103 "Playlist Line"
                     Duration := "End Time" - "Start Time";
             end;
         }
+        field(11; PlaylistId; Guid) { }
     }
 
     keys

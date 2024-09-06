@@ -7,5 +7,6 @@ tableextension 50100 Item extends Item
         field(50102; Duration; Duration) { }
         field(50103; "Data Format"; Enum "Playlist Data Format") { }
         field(50104; "MP3 Location"; Text[250]) { }
+        field(50105; Barcode; Text[30]) { }
     }
 }
