@@ -4,6 +4,8 @@ page 50103 "Playlist Document List"
     ApplicationArea = All;
     UsageCategory = Documents;
     SourceTable = "Playlist Header";
+    CardPageId = "Playlist Document";
+    Editable = false;
 
     layout
     {
