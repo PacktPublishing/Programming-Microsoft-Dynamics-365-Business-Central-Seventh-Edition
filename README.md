@@ -1,4 +1,4 @@
-# Programming Microsoft Dynamics 365 Business Central Seventh Edition
+# Programming Microsoft Dynamics 365 Business Central - Seventh Edition
 
 <a href="https://www.packtpub.com/en-us/product/programming-microsoft-dynamics-365-business-central-9781803236414"> <img src="https://content.packt.com/_/image/xxlarge/B17912/cover_image_large.jpg" alt="Programming Microsoft Dynamics 365 Business Central Seventh Edition" itemprop="url" height="256px" align="right">
 
@@ -43,9 +43,7 @@ With the following software and hardware list you can run all code files present
 | Visual Studio Code | Windows, macOS, or Linux |
 | Microsoft Office 365 | Windows, macOS, or Android |
 | Microsoft SQL Report Builder | Windows with .NET Framework 4.6 |
-| Web browser | Microsoft Edge, Google Chrome (77.0 or later),
-or Mozilla Firefox (69.0 or later) for Windows
-Safari for macOS (12.0 or later) |
+| Web browser | Microsoft Edge, Google Chrome (77.0 or later), or Mozilla Firefox (69.0 or later) for Windows; Safari for macOS (12.0 or later) |
 
 ## Related products
 * Extending Dynamics 365 Finance and Operations Apps with Power Platform [[Packt]](https://www.packtpub.com/en-us/product/extending-dynamics-365-finance-and-operations-apps-with-power-platform-9781801811590) [[Amazon]](https://a.co/d/654NX2G)
