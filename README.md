@@ -23,6 +23,10 @@ If you feel this book is for you, get your [copy](https://a.co/d/5RrnZsf) today!
 
 ## Instructions and Navigations
 
+Chapter by chapter in this book, a Microsoft Dynamics 365 Business Central sample application called “WDTU” for managing a radio station is being developed. This repository contains WDTU application objects only for the readers’ reference.
+Beside the main branch, there is one branch per chapter (1-8). Each chapter branch represents the application code developed by the end of each chapter.
+Users can leverage this structure to compare their code with the authors’ code, compare object changes between chapters, and to develop the application without the need to read all previous book chapters.
+
 The code will look like the following:
 
 ```
@@ -37,30 +41,22 @@ This book is for anyone who wants to learn about Microsoft Dynamics 365 Business
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-8).
 
-## Software and Hardware List
-| Software/ Hardware required | OS required/ Other requirements |
-| ------------------------------------ | ----------------------------------- |
-| Visual Studio Code | Windows, macOS, or Linux |
-| Microsoft Office 365 | Windows, macOS, or Android |
-| Microsoft SQL Report Builder | Windows with .NET Framework 4.6 |
-| Web browser | Microsoft Edge, Google Chrome (77.0 or later), or Mozilla Firefox (69.0 or later) for Windows; Safari for macOS (12.0 or later) |
-
 ## Related products
 * Extending Dynamics 365 Finance and Operations Apps with Power Platform [[Packt]](https://www.packtpub.com/en-us/product/extending-dynamics-365-finance-and-operations-apps-with-power-platform-9781801811590) [[Amazon]](https://a.co/d/654NX2G)
 * Becoming a Dynamics 365 Supply Chain Management Functional Consultant Associate [[Packt]](https://www.packtpub.com/en-us/product/becoming-a-dynamics-365-supply-chain-management-functional-consultant-associate-9781804618004) [[Amazon]](https://a.co/d/0IDRs7o)
 
 ## Get to Know the Authors
 **Marije Brummel**
-is a coach, author, programmer, consultant, project manager, presenter, evangelist, and trainer. Marije has received the Microsoft MVP and the NAVUG All-Star awards, among severalother awards. She has chaired the Microsoft Dynamics Credentialing committee and has authored offi cial Microsoft Exam materials. She’s the go-to girl for performance troubleshooting and upgrade challenges. One of her biggest achievements was introducing Design Patterns into the Business Central community. Her books, blog articles, and YouTube videos have infl uenced almost everyone involvedwith Business Central. She is a mother of five, enjoys the outdoors with her dog, and loves spendingtime with her family.
+is a coach, author, programmer, consultant, project manager, presenter, evangelist, and trainer. Marije has received the Microsoft MVP and the NAVUG All-Star awards, among several other awards. She has chaired the Microsoft Dynamics Credentialing committee and has authored official Microsoft Exam materials. She’s the go-to girl for performance troubleshooting and upgrade challenges. One of her biggest achievements was introducing Design Patterns into the Business Central community. Her books, blog articles, and YouTube videos have influenced almost everyone involved with Business Central. She is a mother of five, enjoys the outdoors with her dog, and loves spending time with her family.
 
 **Natalie Karolak** 
-works at COSMO CONSULT, a leading European provider of industry-specifi c business soft ware and end-to-end IT solutions. As a product architect, she develops and maintains Business Central apps for Microsoft AppSource. Programming for NAV/BC partners since 2006, Natalie has always been passionate about knowledge gain and knowledge sharing. For her commitment to the German-speaking online community, she was presented with the MVP award from 2012 to 2016 and regained it in 2024. Today, she shares English-speaking news and information for AL programmers on X, and on her blog that is named aft er the title that the community gave her: Th e BC Docs Librarian.
+works at COSMO CONSULT, a leading European provider of industry-specific business software and end-to-end IT solutions. As a product architect, she develops and maintains Business Central apps for Microsoft AppSource. Programming for NAV/BC partners since 2006, Natalie has always been passionate about knowledge gain and knowledge sharing. For her commitment to the German-speaking online community, she was presented with the MVP award from 2012 to 2016 and regained it in 2024. Today, she shares English-speaking news and information for AL programmers on X, and on her blog that is named after the title that the community gave her: The BC Docs Librarian.
 
 **Chris Studebaker** 
-was a certifi ed environmental consultant working with manufacturing facilities to meet national and state regulations before he started working with Business Central (then known as Navision) in 1999. After working on regulatory reporting, data analysis, project management, and subcontractor oversight, Chris has used those skills to sell, develop, and implement Business Central for more than 25 years. He has specialized in retail, manufacturing, job shop, and distribution implementations, mostly in high-user-count, high-data-volume applications. Chris serves as a technical consultant and trainer for customers and fellow Business Central professionals. He has a Bachelor of Science degree from Northern Illinois University and has done graduate work at Denmark Technical University.
+was a certified environmental consultant working with manufacturing facilities to meet national and state regulations before he started working with Business Central (then known as Navision) in 1999. After working on regulatory reporting, data analysis, project management, and subcontractor oversight, Chris has used those skills to sell, develop, and implement Business Central for more than 25 years. He has specialized in retail, manufacturing, job shop, and distribution implementations, mostly in high-user-count, high-data-volume applications. Chris serves as a technical consultant and trainer for customers and fellow Business Central professionals. He has a Bachelor of Science degree from Northern Illinois University and has done graduate work at Denmark Technical University.
 
 **David Studebaker** 
-has been designing and developing soft ware since 1962 as a developer, consultant, manager, and business owner. In 1967, David co-authored the fi rst general-purpose SPOOL system, an AT&T/IBM joint project. He has been a founding partner in several fi rms, most recently Studebaker Technology and Liberty Grove Soft ware. David’s publications include a decade of technical reviews for ACM Computing Reviews and a number of articles on shop fl oor data collection. David originated the Packt series of books on programming Microsoft Dynamics Business Central (aka Dynamics NAV). He holds a BS in mechanical engineering from Purdue University and an MBA from the University of Chicago. He is a life member of the Association for Computing Machinery.
+has been designing and developing software since 1962 as a developer, consultant, manager, and business owner. In 1967, David co-authored the first general-purpose SPOOL system, an AT&T/IBM joint project. He has been a founding partner in several firms, most recently Studebaker Technology and Liberty Grove Software. David’s publications include a decade of technical reviews for ACM Computing Reviews and a number of articles on shop floor data collection. David originated the Packt series of books on programming Microsoft Dynamics Business Central (aka Dynamics NAV). He holds a BS in mechanical engineering from Purdue University and an MBA from the University of Chicago. He is a life member of the Association for Computing Machinery.
 
 
 
