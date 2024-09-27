@@ -24,7 +24,9 @@ If you feel this book is for you, get your [copy](https://a.co/d/5RrnZsf) today!
 ## Instructions and Navigations
 
 Chapter by chapter in this book, a Microsoft Dynamics 365 Business Central sample application called “WDTU” for managing a radio station is being developed. This repository contains WDTU application objects only for the readers’ reference.
+
 Beside the main branch, there is one branch per chapter (1-8). Each chapter branch represents the application code developed by the end of each chapter.
+
 Users can leverage this structure to compare their code with the authors’ code, compare object changes between chapters, and to develop the application without the need to read all previous book chapters.
 
 The code will look like the following:
